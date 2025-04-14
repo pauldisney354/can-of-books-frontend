@@ -1,11 +1,20 @@
-import { Component } from "react";
+// LAB 11 - FEATURED TASKS
+// Add an About page at path `/about` that displays the project developer's information.
 
-class Profile extends Component {
+import { Component } from 'react';
+
+class About extends Component {
 
   render() {
     /* TODO: render information about the developers */
-    return <p>Profile page coming soon</p>
+    return (
+      <>
+        <h1>About the Devs</h1>
+        <h3>Code Fellows Student</h3>
+        <p>Code Fellows Student is a full stack software developer proficient in many programming languages including Markdown, HTML, CSS, JavaScript, Python, Java and C#.  See more on Github!</p>
+      </>
+    );
   }
 }
 
-export default Profile;
+export default About;
